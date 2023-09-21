@@ -1,21 +1,36 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media screen and (max-width: 375px) {
-  body {
-    background-color: black;
-    color: white;
+  .MainComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .MainComponent {
+    height: 100vh;
   }
 }
 
-@media screen and (min-width: 475px) {
-  body {
-    background-color: white;
-    color: black;
+@media screen and (min-width: 376px) {
+  .MainComponent {
+    width: 600px;
+    height: 400px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
+
+  .MainComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.MainComponent {
+  background: hsl(252, 100%, 67%);
 }
