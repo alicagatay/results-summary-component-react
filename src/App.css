@@ -9,6 +9,69 @@
   .MainComponent {
     height: 100vh;
   }
+
+  .ResultComponent {
+    width: 100%;
+    height: 45%;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+
+  .ResultComponent h3 {
+    color: hsl(241, 100%, 89%);
+  }
+
+  .CircularResultsBorder {
+    width: 35%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+      180deg,
+      hsla(256, 72%, 46%, 1),
+      hsl(241, 81%, 54%, 0.1)
+    );
+    border-radius: 100%;
+  }
+  .CircularResultsBorder h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+  }
+
+  .CircularResultsBorder p {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+  }
+
+  .ResultComponent h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+  }
+
+  .ResultComponent p {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .SummaryComponent {
+    width: 100%;
+    height: 55%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 376px) {
