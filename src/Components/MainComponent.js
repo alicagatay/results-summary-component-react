@@ -1,9 +1,12 @@
 import "../App.css";
+import ResultComponent from "./ResultComponent";
+import SummaryComponent from "./SummaryComponent";
 
 function MainComponent() {
   return (
     <div className="MainComponent">
-      <h1>Hello World</h1>
+      <ResultComponent />
+      <SummaryComponent />
     </div>
   );
 }
