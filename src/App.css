@@ -263,7 +263,7 @@
 
   .SummaryComponent {
     width: 100%;
-    height: 55%;
+    height: 100%;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
